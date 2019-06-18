@@ -4,9 +4,11 @@
 
 This repo holds design documents for [Syre](https://syre.io) so wallet developers and the curious individual can take a gander and obtain a better understanding.
 
-Please read through the [`Syre Whitepaper`](https://github.com/robkorn/syre-design/blob/master/syre-whitepaper.pdf) first so you have general context on what Syre is. 
+### Relevant Docs
 
-Currently a mock-implementation of Syre Invoices via types in Haskell is available in [`syreDesign.hs`](https://github.com/robkorn/syre-design/blob/master/syreDesign.hs). It shows how invoice data, on + off-chain invoices, and multi-currency invoices could be represented within Haskell's type system. 
+- [Syre Whitepaper](https://github.com/robkorn/syre-design/blob/master/syre-whitepaper.pdf)
+- [Syre Haskell Mock Design](https://github.com/robkorn/syre-design/blob/master/syreDesign.hs)
+- [Syre SBBS Integration](https://github.com/robkorn/syre-design/blob/master/syre_sbbs.md)
 
 As a small teaser, here is how multi currency invoices look:
 
